@@ -1,0 +1,28 @@
+package dafa;
+
+public class opepembanding {
+    public static void main(String[] args) {
+        int a = 130;
+        int z = 240;
+        boolean hasil;
+
+        hasil = a == z;
+        System.out.println("Apakah a == z ? " + hasil);
+
+        hasil = a != z;
+        System.out.println("Apakah a != z ? " + hasil);
+
+        hasil = a > z;
+        System.out.println("Apakah a > z ? " + hasil);
+
+        hasil = a < z;
+        System.out.println("Apakah a < z ? " + hasil);
+
+        hasil = a >= z;
+        System.out.println("Apakah a >= z ? " + hasil);
+
+        hasil = a <= z;
+        System.out.println("Apakah a <= z ? " + hasil);
+    }
+
+}
